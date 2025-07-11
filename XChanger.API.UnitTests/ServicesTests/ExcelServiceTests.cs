@@ -1,7 +1,7 @@
 ﻿using OfficeOpenXml;
 using XChanger.API.Services.Foundations;
 
-namespace XChanger.API.UnitTests.Services
+namespace XChanger.API.UnitTests.ServicesTests
 {
     public class ExcelServiceUnitTests
     {
