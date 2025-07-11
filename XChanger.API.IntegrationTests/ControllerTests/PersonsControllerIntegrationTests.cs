@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Testing;
 using OfficeOpenXml;
 
-namespace XChanger.API.IntegrationTests
+namespace XChanger.API.IntegrationTests.ControllerTests
 {
     public class PersonsControllerIntegrationTests : IClassFixture<WebApplicationFactory<Program>>
     {
