@@ -4,7 +4,7 @@ using XChanger.API.Models.Data;
 using XChanger.API.Models.DTOs;
 using XChanger.API.Services.Foundations;
 
-namespace XChanger.API.UnitTests.Services
+namespace XChanger.API.UnitTests.ServicesTests
 {
     public class PersonServiceUnitTests
     {
