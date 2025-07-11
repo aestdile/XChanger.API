@@ -4,7 +4,7 @@ using XChanger.API.Models.DTOs;
 using XChanger.API.Services.Foundations;
 using XChanger.API.Services.Orchestrations;
 
-namespace XChanger.API.UnitTests.Services;
+namespace XChanger.API.UnitTests.ServicesTests;
 
 public class OrchestrationServiceTests
 {
