@@ -19,8 +19,15 @@ public class PersonsController : ControllerBase
     [HttpPost("process-excel")]
     public async Task<IActionResult> ProcessExcel()
     {
-        await _orchestrationService.ProcessExcelData();
-        return Ok("Data processed and stored successfully.");
+        try
+        {
+            await _orchestrationService.ProcessExcelData();
+            return Ok("Data processed and stored successfully.");
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Internal Error: {ex.Message}");
+        }
     }
 
     [HttpGet]

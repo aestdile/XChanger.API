@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XChanger.API", "XChanger.API\XChanger.API.csproj", "{EFBF481F-0464-46E5-9D5C-D55AD9CCFD8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XChanger.API.UnitTests", "XChanger.API.UnitTests\XChanger.API.UnitTests.csproj", "{D885B82B-2ACE-4658-9F87-D7DB5AEF177B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XChanger.API.IntegrationTests", "XChanger.API.IntegrationTests\XChanger.API.IntegrationTests.csproj", "{A3E81DE9-60BA-4C27-998E-3CEFB10E21C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{EFBF481F-0464-46E5-9D5C-D55AD9CCFD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFBF481F-0464-46E5-9D5C-D55AD9CCFD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFBF481F-0464-46E5-9D5C-D55AD9CCFD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D885B82B-2ACE-4658-9F87-D7DB5AEF177B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D885B82B-2ACE-4658-9F87-D7DB5AEF177B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D885B82B-2ACE-4658-9F87-D7DB5AEF177B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D885B82B-2ACE-4658-9F87-D7DB5AEF177B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E81DE9-60BA-4C27-998E-3CEFB10E21C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E81DE9-60BA-4C27-998E-3CEFB10E21C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E81DE9-60BA-4C27-998E-3CEFB10E21C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E81DE9-60BA-4C27-998E-3CEFB10E21C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
